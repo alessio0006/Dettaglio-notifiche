@@ -1,4 +1,4 @@
 {
- "notificationlist":["messaggio da dedde","messaggio da piter","messaggio da dimarco","messaggio da lo martire","messaggio da carmine"]
+ "notificationlist":[{"messaggio":"messaggio da dedde","timestamp":"09/12/2018T09:30"},{"messaggio":"messaggio da piter","timestamp":"08/08/2018T20:22"},{"messaggio":"messaggio da dimarco","timestamp":"09/10/2018T17:38"},{"messaggio":"messaggio da lo martire","timestamp": "09/07/2006T23:00"},{"messaggio":"messsaggio da carmine","timestamp": "09/07/2018T13:05"}]
  
 }
