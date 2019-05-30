@@ -8,7 +8,7 @@ app = {
     },
     onSuccess:function (jsonData) {
         console.log(jsonData);
-        let lista=dataJson.commissione;
+        let lista=dataJson.notificationlist;
 		lista.forEach(element => {let materia=`
 		<tr>
 			  <td>${element.nomeprof}</td>
