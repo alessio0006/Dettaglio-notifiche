@@ -1,4 +1,4 @@
-alert("hai molte notifiche da leggere");
+galert("hai molte notifiche da leggere");
 app = {
     init : function () { //init diventa n metodo della classe anonima di cui la variabile app fa parte. In questo modo app diventa l'unica variabile globale
         console.log("init!"); //messaggio presente nel debug
@@ -11,9 +11,9 @@ app = {
         let lista=dataJson.notificationlist;
 		lista.forEach(element => {let materia=`
 		<tr>
-			  <td>${element.nomeprof}</td>
-			  <td>${element.cognomeprof}</td>
-			  <td>${element.materia}</td>
+			  <td>${element.messaggio}</td>
+			  <td>${element.timestamp}</td>
+			  
 			</tr>
      
         },
