@@ -9,11 +9,12 @@ app = {
     onSuccess:function (jsonData) {
         console.log(jsonData);
         let lista=dataJson.notificationlist;
-		lista.forEach(element => {let materia=`
+		lista.forEach(element => {let list=`
 		<li>
 	        ${element.messaggio}<br>${element.timestamp}
-	        </li>
-$("#lista").append(lista);
+	        </li>`
+$("#lista").append(list);
+});
      
         },
         onError:function(e){
