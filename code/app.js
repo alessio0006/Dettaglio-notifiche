@@ -8,6 +8,13 @@ app = {
     },
     onSuccess:function (jsonData) {
         console.log(jsonData);
+        let lista=dataJson.commissione;
+		lista.forEach(element => {let materia=`
+		<tr>
+			  <td>${element.nomeprof}</td>
+			  <td>${element.cognomeprof}</td>
+			  <td>${element.materia}</td>
+			</tr>
      
         },
         onError:function(e){
