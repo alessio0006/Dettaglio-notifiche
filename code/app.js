@@ -15,6 +15,7 @@ app = {
 			  <td>${element.timestamp}</td>
 			  
 			</tr>
+$("#materia").append(lista);
      
         },
         onError:function(e){
