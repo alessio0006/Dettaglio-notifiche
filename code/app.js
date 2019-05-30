@@ -10,12 +10,10 @@ app = {
         console.log(jsonData);
         let lista=dataJson.notificationlist;
 		lista.forEach(element => {let materia=`
-		<tr>
-			  <td>${element.messaggio}</td>
-			  <td>${element.timestamp}</td>
-			  
-			</tr>
-$("#materia").append(lista);
+		<li>
+	        ${element.messaggio}<br>${element.timestamp}
+	        </li>
+$("#lista").append(lista);
      
         },
         onError:function(e){
